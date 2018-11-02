@@ -4,9 +4,9 @@ This Ansible role allows a user to assume a given role, generating temporary sec
 
 ## Requirements
 
-- Python 2.7
-- PIP package manager (**easy_install pip**)
-- Ansible 2.2 or greater (**pip install ansible**)
+- Python 2.7 or 3.6
+- PIP package manager
+- Ansible 2.5 or greater (**pip install ansible**)
 - AWS CLI (**pip install awscli**)
 
 ## Setup
@@ -176,6 +176,11 @@ localhost                  : ok=5    changed=0    unreachable=0    failed=0
 ```
 
 ## Release Notes
+
+### Version 2.7
+
+- Ansible 2.7 support
+- Python 3 support
 
 ### Version 2.5
 
